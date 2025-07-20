@@ -5,10 +5,10 @@ Este projeto é um **sistema de gerenciamento de turmas** desenvolvido em lingua
 ## 🔧 Funcionalidades
 
 - Criar e selecionar turmas
-- Adicionar alunos (nome, nota1, nota2)
-- Calcular média e situação (Aprovado/Reprovado)
-- Listar todos os alunos da turma
-- Atualizar notas de alunos existentes
+- Cadastrar alunos e seus dados (nome e nota de duas ativadades avaliativas do mesmo)
+- Calcular a média e a situação dos alunos (Se o aluno está Aprovado/Reprovado)
+- Mostrar para o usuário uma listagem de todos os alunos da turma selecionada
+- Editar notas de alunos já cadastrados
 - Excluir alunos por ID
 - Armazenar todos os dados em arquivos `.txt` separados por turma
 
@@ -22,15 +22,25 @@ O sistema utiliza duas estruturas principais:
 ## 💾 Armazenamento em Arquivo
 
 Cada turma é salva em um arquivo `.txt`, cujo nome é gerado automaticamente a partir do nome da turma, substituindo espaços por underlines (`_`).  
-Exemplo: a turma `Ciencia da Computacao 2025` será salva como `Ciencia_da_Computacao_2025.txt`.
+Exemplo: a turma `ProgramaçãoI - T01` será salva como `ProgramaçãoI.txt`.
 
 ## ▶️ Como Executar
 
-### Requisitos
+Para executar e compilar o projeto de um **Compilador C** (como por exemplo o gcc)
 
-- Compilador C (como o `gcc`)
-
-### Compilação
-
-```bash
-gcc -o gerenciador_turmas main.c
+### Como Compilar e Executar
+1.  **Clone ou baixe o repositório.**
+2.  **Abra um terminal** na pasta raiz do projeto
+3.  **Compile o arquivo** com o seguinte comando:
+    ```bash
+    gcc main.c docente.c -o docente
+    ```
+4.  **Execute o programa:**
+    * No Linux ou macOS:
+        ```bash
+        ./docente
+        ```
+    * No Windows:
+        ```bash
+        .\docente.exe
+        ```
