@@ -1,4 +1,3 @@
-// docente.h
 #ifndef DOCENTE_H
 #define DOCENTE_H
 
