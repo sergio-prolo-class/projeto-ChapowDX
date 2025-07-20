@@ -1,3 +1,9 @@
+#include <stdio.h>     // Para printf, scanf, fopen, fclose, fprintf, fscanf, getchar, etc.
+#include <string.h>    // Para strcpy, strcat, strcspn
+#include <ctype.h>     // Para isspace
+
+
+// Funções e Ponteiros
 void calcularMediaESituacao(Aluno *aluno)
 {
     aluno->media = (aluno->nota1 + aluno->nota2) / 2.0;
