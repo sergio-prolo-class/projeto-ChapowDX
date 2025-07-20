@@ -22,7 +22,7 @@ O sistema utiliza duas estruturas principais:
 ## 💾 Armazenamento em Arquivo
 
 Cada turma é salva em um arquivo `.txt`, cujo nome é gerado automaticamente a partir do nome da turma, substituindo espaços por underlines (`_`).  
-Exemplo: a turma `ProgramaçãoI - T01` será salva como `ProgramaçãoI.txt`.
+Exemplo: a turma `ProgramaçãoI` será salva como `ProgramaçãoI.txt`.
 
 ## ▶️ Como Executar
 
