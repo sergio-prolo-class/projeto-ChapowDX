@@ -1,3 +1,6 @@
+ARTHUR DELCASTANHEL DA SILVA 
+MATRíCULA: 202510703607
+
 # 📚 Gerenciador de Turmas em C
 
 Este projeto é um **sistema de gerenciamento de turmas** desenvolvido em linguagem C. Ele permite a criação, visualização, atualização e exclusão de dados de alunos de uma turma, com armazenamento em arquivos de texto.
