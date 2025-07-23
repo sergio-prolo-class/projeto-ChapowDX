@@ -62,7 +62,7 @@ int main()
         // Uso de fluxo de decisão para o controle da navegação do menu do professor
         switch (opcaoPrincipal) {
             case 1:  // Selecionar/Criar Turma
-                printf("\nDigite o nome da turma (ex: Ciencia_da_Computacao_2025): ");
+                printf("\nDigite o nome da turma (ex:Programação I): ");
                 scanf("%99[^\n]", nomeTurma);
                 limparBufferEntrada();
 
