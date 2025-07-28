@@ -247,7 +247,7 @@ int excluirAluno(Turma *turma, int id)
 
 void exibirMenuPrincipal()
 {
-    printf("\n===== DOCENTE ACADÊMICO =====\n");
+    printf("\n===== DOCENTE ACADÊMICO: Gerenciador de Turmas e Alunos =====\n");
     printf("1. Selecionar ou Criar uma Turma\n");
     printf("2. Sair\n");
     printf("=================================\n");
